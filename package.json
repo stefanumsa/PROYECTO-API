@@ -1,0 +1,34 @@
+{
+    "name": "applicacion-de-gestion-de-clientes",
+    "version": "1.0.0",
+    "description": "Esta es una aplicacion web para la gestion de clientes.",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "base-64": "^1.0.0",
+        "base64-js": "^1.5.1",
+        "bcrypt": "^5.1.1",
+        "body-parser": "^1.20.2",
+        "connect-flash": "^0.1.1",
+        "connect-sqlite3": "^0.9.15",
+        "cookie-parser": "^1.4.6",
+        "dotenv": "^16.4.5",
+        "ejs": "^3.1.10",
+        "express": "^4.19.2",
+        "express-session": "^1.17.2",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^8.4.0",
+        "mysql2": "^3.10.0",
+        "passport": "^0.7.0",
+        "passport-local": "^1.0.0",
+        "pug": "^3.0.3",
+        "sass": "^1.77.1",
+        "sqlite3": "^5.1.7",
+        "uuid": "^9.0.1"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.0"
+    }
+}
